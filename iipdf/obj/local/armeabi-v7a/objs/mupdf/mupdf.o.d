@@ -44,7 +44,7 @@ obj/local/armeabi-v7a/objs/mupdf/mupdf.o: jni/mupdf.c \
  /cygdrive/d/android-ndk-r9b/platforms/android-8/arch-arm/usr/include/strings.h \
  /cygdrive/d/android-ndk-r9b/platforms/android-8/arch-arm/usr/include/memory.h \
  /cygdrive/d/android-ndk-r9b/platforms/android-8/arch-arm/usr/include/math.h \
- jni/../mupdf/fitz.h jni/../mupdf/../mupdf/fitz/system.h \
+ jni/mupdf/fitz.h jni/mupdf/fitz/system.h \
  /cygdrive/d/android-ndk-r9b/platforms/android-8/arch-arm/usr/include/assert.h \
  /cygdrive/d/android-ndk-r9b/platforms/android-8/arch-arm/usr/include/errno.h \
  /cygdrive/d/android-ndk-r9b/platforms/android-8/arch-arm/usr/include/linux/errno.h \
@@ -62,51 +62,28 @@ obj/local/armeabi-v7a/objs/mupdf/mupdf.o: jni/mupdf.c \
  /cygdrive/d/android-ndk-r9b/platforms/android-8/arch-arm/usr/include/pathconf.h \
  /cygdrive/d/android-ndk-r9b/platforms/android-8/arch-arm/usr/include/setjmp.h \
  /cygdrive/d/android-ndk-r9b/platforms/android-8/arch-arm/usr/include/machine/setjmp.h \
- jni/../mupdf/memento.h jni/../mupdf/../mupdf/fitz/context.h \
- jni/../mupdf/fitz/system.h jni/../mupdf/../mupdf/fitz/crypt.h \
- jni/../mupdf/../mupdf/fitz/getopt.h jni/../mupdf/../mupdf/fitz/hash.h \
- jni/../mupdf/fitz/context.h jni/../mupdf/../mupdf/fitz/math.h \
- jni/../mupdf/../mupdf/fitz/string.h jni/../mupdf/../mupdf/fitz/xml.h \
- jni/../mupdf/../mupdf/fitz/buffer.h jni/../mupdf/../mupdf/fitz/stream.h \
- jni/../mupdf/fitz/buffer.h \
- jni/../mupdf/../mupdf/fitz/compressed-buffer.h \
- jni/../mupdf/fitz/stream.h jni/../mupdf/../mupdf/fitz/filter.h \
- jni/../mupdf/../mupdf/fitz/output.h jni/../mupdf/../mupdf/fitz/store.h \
- jni/../mupdf/../mupdf/fitz/colorspace.h jni/../mupdf/fitz/store.h \
- jni/../mupdf/../mupdf/fitz/pixmap.h jni/../mupdf/fitz/math.h \
- jni/../mupdf/fitz/colorspace.h jni/../mupdf/../mupdf/fitz/bitmap.h \
- jni/../mupdf/fitz/pixmap.h jni/../mupdf/../mupdf/fitz/image.h \
- jni/../mupdf/fitz/compressed-buffer.h \
- jni/../mupdf/../mupdf/fitz/function.h jni/../mupdf/../mupdf/fitz/shade.h \
- jni/../mupdf/../mupdf/fitz/font.h jni/../mupdf/../mupdf/fitz/path.h \
- jni/../mupdf/../mupdf/fitz/text.h jni/../mupdf/fitz/font.h \
- jni/../mupdf/fitz/path.h jni/../mupdf/../mupdf/fitz/device.h \
- jni/../mupdf/fitz/image.h jni/../mupdf/fitz/shade.h \
- jni/../mupdf/fitz/text.h jni/../mupdf/../mupdf/fitz/display-list.h \
- jni/../mupdf/fitz/device.h jni/../mupdf/../mupdf/fitz/structured-text.h \
- jni/../mupdf/fitz/output.h jni/../mupdf/../mupdf/fitz/transition.h \
- jni/../mupdf/../mupdf/fitz/glyph-cache.h \
- jni/../mupdf/../mupdf/fitz/link.h jni/../mupdf/../mupdf/fitz/outline.h \
- jni/../mupdf/fitz/link.h jni/../mupdf/../mupdf/fitz/document.h \
- jni/../mupdf/fitz/transition.h jni/../mupdf/fitz/outline.h \
- jni/../mupdf/../mupdf/fitz/annotation.h jni/../mupdf/fitz/document.h \
- jni/../mupdf/../mupdf/fitz/meta.h \
- jni/../mupdf/../mupdf/fitz/write-document.h \
- jni/../mupdf/../mupdf/fitz/output-pnm.h jni/../mupdf/fitz/bitmap.h \
- jni/../mupdf/../mupdf/fitz/output-png.h \
- jni/../mupdf/../mupdf/fitz/output-pwg.h \
- jni/../mupdf/../mupdf/fitz/output-pcl.h \
- jni/../mupdf/../mupdf/fitz/output-svg.h jni/../mupdf/pdf.h \
- jni/../mupdf/../mupdf/fitz.h jni/../mupdf/../mupdf/pdf/object.h \
- jni/../mupdf/../mupdf/pdf/document.h jni/../mupdf/../mupdf/pdf/parse.h \
- jni/../mupdf/../mupdf/pdf/xref.h jni/../mupdf/../mupdf/pdf/crypt.h \
- jni/../mupdf/../mupdf/pdf/page.h jni/../mupdf/../mupdf/pdf/resource.h \
- jni/../mupdf/../mupdf/pdf/cmap.h jni/../mupdf/../mupdf/pdf/font.h \
- jni/../mupdf/../mupdf/pdf/annot.h jni/../mupdf/../mupdf/pdf/field.h \
- jni/../mupdf/../mupdf/pdf/widget.h \
- jni/../mupdf/../mupdf/pdf/appearance.h jni/../mupdf/../mupdf/pdf/event.h \
- jni/../mupdf/../mupdf/pdf/javascript.h \
- jni/../mupdf/../mupdf/pdf/output-pdf.h
+ jni/mupdf/memento.h jni/mupdf/fitz/context.h jni/mupdf/fitz/crypt.h \
+ jni/mupdf/fitz/getopt.h jni/mupdf/fitz/hash.h jni/mupdf/fitz/math.h \
+ jni/mupdf/fitz/string.h jni/mupdf/fitz/xml.h jni/mupdf/fitz/buffer.h \
+ jni/mupdf/fitz/stream.h jni/mupdf/fitz/compressed-buffer.h \
+ jni/mupdf/fitz/filter.h jni/mupdf/fitz/output.h jni/mupdf/fitz/store.h \
+ jni/mupdf/fitz/colorspace.h jni/mupdf/fitz/pixmap.h \
+ jni/mupdf/fitz/bitmap.h jni/mupdf/fitz/image.h jni/mupdf/fitz/function.h \
+ jni/mupdf/fitz/shade.h jni/mupdf/fitz/font.h jni/mupdf/fitz/path.h \
+ jni/mupdf/fitz/text.h jni/mupdf/fitz/device.h \
+ jni/mupdf/fitz/display-list.h jni/mupdf/fitz/structured-text.h \
+ jni/mupdf/fitz/transition.h jni/mupdf/fitz/glyph-cache.h \
+ jni/mupdf/fitz/link.h jni/mupdf/fitz/outline.h jni/mupdf/fitz/document.h \
+ jni/mupdf/fitz/annotation.h jni/mupdf/fitz/meta.h \
+ jni/mupdf/fitz/write-document.h jni/mupdf/fitz/output-pnm.h \
+ jni/mupdf/fitz/output-png.h jni/mupdf/fitz/output-pwg.h \
+ jni/mupdf/fitz/output-pcl.h jni/mupdf/fitz/output-svg.h jni/mupdf/pdf.h \
+ jni/mupdf/fitz.h jni/mupdf/pdf/object.h jni/mupdf/pdf/document.h \
+ jni/mupdf/pdf/parse.h jni/mupdf/pdf/xref.h jni/mupdf/pdf/crypt.h \
+ jni/mupdf/pdf/page.h jni/mupdf/pdf/resource.h jni/mupdf/pdf/cmap.h \
+ jni/mupdf/pdf/font.h jni/mupdf/pdf/annot.h jni/mupdf/pdf/field.h \
+ jni/mupdf/pdf/widget.h jni/mupdf/pdf/appearance.h jni/mupdf/pdf/event.h \
+ jni/mupdf/pdf/javascript.h jni/mupdf/pdf/output-pdf.h
 
 /cygdrive/d/android-ndk-r9b/platforms/android-8/arch-arm/usr/include/jni.h:
 
@@ -198,9 +175,9 @@ obj/local/armeabi-v7a/objs/mupdf/mupdf.o: jni/mupdf.c \
 
 /cygdrive/d/android-ndk-r9b/platforms/android-8/arch-arm/usr/include/math.h:
 
-jni/../mupdf/fitz.h:
+jni/mupdf/fitz.h:
 
-jni/../mupdf/../mupdf/fitz/system.h:
+jni/mupdf/fitz/system.h:
 
 /cygdrive/d/android-ndk-r9b/platforms/android-8/arch-arm/usr/include/assert.h:
 
@@ -236,158 +213,116 @@ jni/../mupdf/../mupdf/fitz/system.h:
 
 /cygdrive/d/android-ndk-r9b/platforms/android-8/arch-arm/usr/include/machine/setjmp.h:
 
-jni/../mupdf/memento.h:
+jni/mupdf/memento.h:
 
-jni/../mupdf/../mupdf/fitz/context.h:
+jni/mupdf/fitz/context.h:
 
-jni/../mupdf/fitz/system.h:
+jni/mupdf/fitz/crypt.h:
 
-jni/../mupdf/../mupdf/fitz/crypt.h:
+jni/mupdf/fitz/getopt.h:
 
-jni/../mupdf/../mupdf/fitz/getopt.h:
+jni/mupdf/fitz/hash.h:
 
-jni/../mupdf/../mupdf/fitz/hash.h:
+jni/mupdf/fitz/math.h:
 
-jni/../mupdf/fitz/context.h:
+jni/mupdf/fitz/string.h:
 
-jni/../mupdf/../mupdf/fitz/math.h:
+jni/mupdf/fitz/xml.h:
 
-jni/../mupdf/../mupdf/fitz/string.h:
+jni/mupdf/fitz/buffer.h:
 
-jni/../mupdf/../mupdf/fitz/xml.h:
+jni/mupdf/fitz/stream.h:
 
-jni/../mupdf/../mupdf/fitz/buffer.h:
+jni/mupdf/fitz/compressed-buffer.h:
 
-jni/../mupdf/../mupdf/fitz/stream.h:
+jni/mupdf/fitz/filter.h:
 
-jni/../mupdf/fitz/buffer.h:
+jni/mupdf/fitz/output.h:
 
-jni/../mupdf/../mupdf/fitz/compressed-buffer.h:
+jni/mupdf/fitz/store.h:
 
-jni/../mupdf/fitz/stream.h:
+jni/mupdf/fitz/colorspace.h:
 
-jni/../mupdf/../mupdf/fitz/filter.h:
+jni/mupdf/fitz/pixmap.h:
 
-jni/../mupdf/../mupdf/fitz/output.h:
+jni/mupdf/fitz/bitmap.h:
 
-jni/../mupdf/../mupdf/fitz/store.h:
+jni/mupdf/fitz/image.h:
 
-jni/../mupdf/../mupdf/fitz/colorspace.h:
+jni/mupdf/fitz/function.h:
 
-jni/../mupdf/fitz/store.h:
+jni/mupdf/fitz/shade.h:
 
-jni/../mupdf/../mupdf/fitz/pixmap.h:
+jni/mupdf/fitz/font.h:
 
-jni/../mupdf/fitz/math.h:
+jni/mupdf/fitz/path.h:
 
-jni/../mupdf/fitz/colorspace.h:
+jni/mupdf/fitz/text.h:
 
-jni/../mupdf/../mupdf/fitz/bitmap.h:
+jni/mupdf/fitz/device.h:
 
-jni/../mupdf/fitz/pixmap.h:
+jni/mupdf/fitz/display-list.h:
 
-jni/../mupdf/../mupdf/fitz/image.h:
+jni/mupdf/fitz/structured-text.h:
 
-jni/../mupdf/fitz/compressed-buffer.h:
+jni/mupdf/fitz/transition.h:
 
-jni/../mupdf/../mupdf/fitz/function.h:
+jni/mupdf/fitz/glyph-cache.h:
 
-jni/../mupdf/../mupdf/fitz/shade.h:
+jni/mupdf/fitz/link.h:
 
-jni/../mupdf/../mupdf/fitz/font.h:
+jni/mupdf/fitz/outline.h:
 
-jni/../mupdf/../mupdf/fitz/path.h:
+jni/mupdf/fitz/document.h:
 
-jni/../mupdf/../mupdf/fitz/text.h:
+jni/mupdf/fitz/annotation.h:
 
-jni/../mupdf/fitz/font.h:
+jni/mupdf/fitz/meta.h:
 
-jni/../mupdf/fitz/path.h:
+jni/mupdf/fitz/write-document.h:
 
-jni/../mupdf/../mupdf/fitz/device.h:
+jni/mupdf/fitz/output-pnm.h:
 
-jni/../mupdf/fitz/image.h:
+jni/mupdf/fitz/output-png.h:
 
-jni/../mupdf/fitz/shade.h:
+jni/mupdf/fitz/output-pwg.h:
 
-jni/../mupdf/fitz/text.h:
+jni/mupdf/fitz/output-pcl.h:
 
-jni/../mupdf/../mupdf/fitz/display-list.h:
+jni/mupdf/fitz/output-svg.h:
 
-jni/../mupdf/fitz/device.h:
+jni/mupdf/pdf.h:
 
-jni/../mupdf/../mupdf/fitz/structured-text.h:
+jni/mupdf/fitz.h:
 
-jni/../mupdf/fitz/output.h:
+jni/mupdf/pdf/object.h:
 
-jni/../mupdf/../mupdf/fitz/transition.h:
+jni/mupdf/pdf/document.h:
 
-jni/../mupdf/../mupdf/fitz/glyph-cache.h:
+jni/mupdf/pdf/parse.h:
 
-jni/../mupdf/../mupdf/fitz/link.h:
+jni/mupdf/pdf/xref.h:
 
-jni/../mupdf/../mupdf/fitz/outline.h:
+jni/mupdf/pdf/crypt.h:
 
-jni/../mupdf/fitz/link.h:
+jni/mupdf/pdf/page.h:
 
-jni/../mupdf/../mupdf/fitz/document.h:
+jni/mupdf/pdf/resource.h:
 
-jni/../mupdf/fitz/transition.h:
+jni/mupdf/pdf/cmap.h:
 
-jni/../mupdf/fitz/outline.h:
+jni/mupdf/pdf/font.h:
 
-jni/../mupdf/../mupdf/fitz/annotation.h:
+jni/mupdf/pdf/annot.h:
 
-jni/../mupdf/fitz/document.h:
+jni/mupdf/pdf/field.h:
 
-jni/../mupdf/../mupdf/fitz/meta.h:
+jni/mupdf/pdf/widget.h:
 
-jni/../mupdf/../mupdf/fitz/write-document.h:
+jni/mupdf/pdf/appearance.h:
 
-jni/../mupdf/../mupdf/fitz/output-pnm.h:
+jni/mupdf/pdf/event.h:
 
-jni/../mupdf/fitz/bitmap.h:
+jni/mupdf/pdf/javascript.h:
 
-jni/../mupdf/../mupdf/fitz/output-png.h:
-
-jni/../mupdf/../mupdf/fitz/output-pwg.h:
-
-jni/../mupdf/../mupdf/fitz/output-pcl.h:
-
-jni/../mupdf/../mupdf/fitz/output-svg.h:
-
-jni/../mupdf/pdf.h:
-
-jni/../mupdf/../mupdf/fitz.h:
-
-jni/../mupdf/../mupdf/pdf/object.h:
-
-jni/../mupdf/../mupdf/pdf/document.h:
-
-jni/../mupdf/../mupdf/pdf/parse.h:
-
-jni/../mupdf/../mupdf/pdf/xref.h:
-
-jni/../mupdf/../mupdf/pdf/crypt.h:
-
-jni/../mupdf/../mupdf/pdf/page.h:
-
-jni/../mupdf/../mupdf/pdf/resource.h:
-
-jni/../mupdf/../mupdf/pdf/cmap.h:
-
-jni/../mupdf/../mupdf/pdf/font.h:
-
-jni/../mupdf/../mupdf/pdf/annot.h:
-
-jni/../mupdf/../mupdf/pdf/field.h:
-
-jni/../mupdf/../mupdf/pdf/widget.h:
-
-jni/../mupdf/../mupdf/pdf/appearance.h:
-
-jni/../mupdf/../mupdf/pdf/event.h:
-
-jni/../mupdf/../mupdf/pdf/javascript.h:
-
-jni/../mupdf/../mupdf/pdf/output-pdf.h:
+jni/mupdf/pdf/output-pdf.h:

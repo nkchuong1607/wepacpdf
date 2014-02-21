@@ -2,15 +2,15 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-MY_ROOT := ../..
+MY_ROOT := jni
 
 LOCAL_C_INCLUDES := \
-	../../thirdparty/jbig2dec \
-	../../thirdparty/openjpeg/src/lib/openjp2 \
-	../../thirdparty/jpeg \
-	../../thirdparty/zlib \
-	../../thirdparty/freetype/include \
-	../../scripts
+	jni/thirdparty/jbig2dec \
+	jni/thirdparty/openjpeg/src/lib/openjp2 \
+	jni/thirdparty/jpeg \
+	jni/thirdparty/zlib \
+	jni/thirdparty/freetype/include \
+	jni/scripts
 
 LOCAL_CFLAGS := \
 	-DFT2_BUILD_LIBRARY -DDARWIN_NO_CARBON -DHAVE_STDINT_H \
