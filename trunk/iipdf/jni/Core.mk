@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-MY_ROOT := ../..
+MY_ROOT := jni
 
 V8 := v8-3.9
 
@@ -18,23 +18,23 @@ LOCAL_CFLAGS += -DMEMENTO -DMEMENTO_LEAKONLY
 endif
 
 LOCAL_C_INCLUDES := \
-	../../thirdparty/jbig2dec \
-	../../thirdparty/openjpeg/src/lib/openjp2 \
-	../../thirdparty/jpeg \
-	../../thirdparty/zlib \
-	../../thirdparty/freetype/include \
-	../../source/fitz \
-	../../source/pdf \
-	../../source/xps \
-	../../source/cbz \
-	../../source/img \
-	../../scripts \
-	../../generated \
-	../../resources \
-	../../include \
-	../..
+	jni/thirdparty/jbig2dec \
+	jni/thirdparty/openjpeg/src/lib/openjp2 \
+	jni/thirdparty/jpeg \
+	jni/thirdparty/zlib \
+	jni/thirdparty/freetype/include \
+	jni/source/fitz \
+	jni/source/pdf \
+	jni/source/xps \
+	jni/source/cbz \
+	jni/source/img \
+	jni/scripts \
+	jni/generated \
+	jni/resources \
+	jni/include \
+	jni
 ifdef V8_BUILD
-LOCAL_C_INCLUDES += ../../thirdparty/$(V8)/include
+LOCAL_C_INCLUDES += jni/thirdparty/$(V8)/include
 endif
 
 LOCAL_MODULE    := mupdfcore
