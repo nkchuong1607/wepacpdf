@@ -3,6 +3,8 @@ package com.wepac.reader.iipdf;
 import java.io.InputStream;
 import java.util.concurrent.Executor;
 
+import com.wepac.reader.iipdf.db.OpenedFileDbHelper;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
@@ -206,6 +208,7 @@ public class MuPDFActivity extends Activity
 		System.out.println("Trying to open "+path);
 		try
 		{
+			OpenedFileDbHelper.getInstance().insertOpenFile(path);
 			core = new MuPDFCore(this, path);
 			// New file: drop the old outline data
 			OutlineActivityData.set(null);

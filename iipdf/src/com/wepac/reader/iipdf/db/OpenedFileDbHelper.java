@@ -1,9 +1,13 @@
 package com.wepac.reader.iipdf.db;
 
+import java.io.File;
+import java.util.ArrayList;
+
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 import com.wepac.reader.iipdf.MainApplication;
 
@@ -45,6 +49,10 @@ public class OpenedFileDbHelper extends SQLiteOpenHelper{
 	}
 	
 	public void insertOpenFile(String filePath){
+		if(isFileInDB(filePath)){
+			return;
+		}
+			
 		if(filePath != null && filePath.length() > 0){
 			db.execSQL("insert into "+ TABLE_NAME
 									+ " ("+ COLUMN_FILE_NAME + ")"
@@ -66,17 +74,45 @@ public class OpenedFileDbHelper extends SQLiteOpenHelper{
 		}
 	}
 	
+	public ArrayList<File> getAllFile(){
+		ArrayList<File> fileList = new ArrayList<File>();
+		try{
+			Cursor cursor = null;
+			cursor = db.rawQuery("select " + COLUMN_FILE_NAME + " from " + TABLE_NAME, null);
+			if(cursor != null){
+				while (cursor.moveToNext()) {
+					String filePath = cursor.getString(0);
+					File file = new File(filePath);
+					if(file.exists()){
+						fileList.add(file);
+					}
+					else{
+						deleteOpenFile(filePath);
+					}
+				}
+				cursor.close();
+				cursor = null;
+			}
+		}
+		catch(Exception ex){
+			ex.printStackTrace();
+		}
+		
+		return fileList;
+	}
+	
 	public boolean isFileInDB(String filePath){
 		try{
 			Cursor cursor = null;
-			cursor = db.rawQuery("SELECT EXISTS(SELECT 1 FROM "+ TABLE_NAME +" WHERE "+ COLUMN_FILE_NAME +"= ? LIMIT 1)", new String[] {filePath});
-			if(cursor != null){
-				int result = cursor.getInt(0);
-				cursor.close();
-				cursor = null;
-				if(result != 1){
+			cursor = db.rawQuery("SELECT * FROM "+ TABLE_NAME +" WHERE "+ COLUMN_FILE_NAME +"= ?", new String[] {filePath});
+			if(cursor != null){ 
+				if(cursor.getCount() == 0){
+					cursor.close();
+					cursor = null;
 					return false;
 				}
+				cursor.close();
+				cursor = null;
 			}
 			return true;
 		}
