@@ -54,4 +54,5 @@
 	<string name="format_currently_not_supported">Format currently not supported</string>
 	<string name="toggle_reflow_mode">Toggle reflow mode</string>
 	<string name="last_open">Recently opened files</string>
+	<string name="delete_opened_file">Remove</string>
 </resources>

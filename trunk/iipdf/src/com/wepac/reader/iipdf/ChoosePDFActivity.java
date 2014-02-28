@@ -7,6 +7,8 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.wepac.reader.iipdf.preference.AppPreference;
+
 import android.app.AlertDialog;
 import android.app.ListActivity;
 import android.content.DialogInterface;
@@ -54,8 +56,15 @@ public class ChoosePDFActivity extends ListActivity {
 			return;
 		}
 
-		if (mDirectory == null)
-			mDirectory = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
+		if (mDirectory == null){
+			String lastPath = AppPreference.getLastDir();
+			if(lastPath.length() > 0) {
+				mDirectory = new File(lastPath);
+			}
+			else {
+				mDirectory = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
+			}
+		}
 
 		// Create a list adapter...
 		adapter = new ChoosePDFAdapter(getLayoutInflater());
@@ -65,11 +74,10 @@ public class ChoosePDFActivity extends ListActivity {
 		mHandler = new Handler();
 		mUpdateFiles = new Runnable() {
 			public void run() {
-				Resources res = getResources();
-				String appName = res.getString(R.string.app_name);
-				String version = res.getString(R.string.version);
-				String title = res.getString(R.string.picker_title_App_Ver_Dir);
-				setTitle(String.format(title, appName, version, mDirectory));
+				String dirPath = mDirectory.getAbsolutePath(); 
+				setTitle(dirPath);
+				AppPreference.setLastDir(dirPath);
+				
 
 				mParent = mDirectory.getParentFile();
 
