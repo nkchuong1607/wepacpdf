@@ -8,7 +8,6 @@
 	<string name="search_backwards">Search backwards</string>
 	<string name="search_forwards">Search forwards</string>
 	<string name="search_document">Search document</string>
-	<string name="picker_title_App_Ver_Dir">%1$s %2$s: %3$s</string>
 	<string name="outline_title">Table of Contents</string>
 	<string name="enter_password">Enter password</string>
 	<string name="text_not_found">Text not found</string>
@@ -55,4 +54,5 @@
 	<string name="toggle_reflow_mode">Toggle reflow mode</string>
 	<string name="last_open">Recently opened files</string>
 	<string name="delete_opened_file">Remove</string>
+	<string name="alert">Alert</string>
 </resources>

@@ -268,7 +268,7 @@ public class MuPDFPageView extends PageView implements MuPDFView {
 		if (currentApiVersion >= android.os.Build.VERSION_CODES.HONEYCOMB) {
 			android.content.ClipboardManager cm = (android.content.ClipboardManager)mContext.getSystemService(Context.CLIPBOARD_SERVICE);
 
-			cm.setPrimaryClip(ClipData.newPlainText("MuPDF", text));
+			cm.setPrimaryClip(ClipData.newPlainText("iiPDF", text));
 		} else {
 			android.text.ClipboardManager cm = (android.text.ClipboardManager)mContext.getSystemService(Context.CLIPBOARD_SERVICE);
 			cm.setText(text);
