@@ -1,0 +1,682 @@
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode[] values()
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode valueOf(java.lang.String)
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender[] values()
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender valueOf(java.lang.String)
+com.google.android.gms.R$attr: int adSize
+com.google.android.gms.R$attr: int adUnitId
+com.google.android.gms.R$attr: int cameraBearing
+com.google.android.gms.R$attr: int cameraTargetLat
+com.google.android.gms.R$attr: int cameraTargetLng
+com.google.android.gms.R$attr: int cameraTilt
+com.google.android.gms.R$attr: int cameraZoom
+com.google.android.gms.R$attr: int mapType
+com.google.android.gms.R$attr: int uiCompass
+com.google.android.gms.R$attr: int uiRotateGestures
+com.google.android.gms.R$attr: int uiScrollGestures
+com.google.android.gms.R$attr: int uiTiltGestures
+com.google.android.gms.R$attr: int uiZoomControls
+com.google.android.gms.R$attr: int uiZoomGestures
+com.google.android.gms.R$attr: int useViewLifecycle
+com.google.android.gms.R$attr: int zOrderOnTop
+com.google.android.gms.R$color: int common_action_bar_splitter
+com.google.android.gms.R$color: int common_signin_btn_dark_text_default
+com.google.android.gms.R$color: int common_signin_btn_dark_text_disabled
+com.google.android.gms.R$color: int common_signin_btn_dark_text_focused
+com.google.android.gms.R$color: int common_signin_btn_dark_text_pressed
+com.google.android.gms.R$color: int common_signin_btn_default_background
+com.google.android.gms.R$color: int common_signin_btn_light_text_default
+com.google.android.gms.R$color: int common_signin_btn_light_text_disabled
+com.google.android.gms.R$color: int common_signin_btn_light_text_focused
+com.google.android.gms.R$color: int common_signin_btn_light_text_pressed
+com.google.android.gms.R$color: int common_signin_btn_text_dark
+com.google.android.gms.R$color: int common_signin_btn_text_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_normal_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_normal_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_pressed_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_pressed_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_normal_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_normal_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_pressed_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_pressed_light
+com.google.android.gms.R$drawable: int ic_plusone_medium_off_client
+com.google.android.gms.R$drawable: int ic_plusone_small_off_client
+com.google.android.gms.R$drawable: int ic_plusone_standard_off_client
+com.google.android.gms.R$drawable: int ic_plusone_tall_off_client
+com.google.android.gms.R$id: int hybrid
+com.google.android.gms.R$id: int none
+com.google.android.gms.R$id: int normal
+com.google.android.gms.R$id: int satellite
+com.google.android.gms.R$id: int terrain
+com.google.android.gms.R$integer: int google_play_services_version
+com.google.android.gms.R$string: int auth_client_needs_enabling_title
+com.google.android.gms.R$string: int auth_client_needs_installation_title
+com.google.android.gms.R$string: int auth_client_needs_update_title
+com.google.android.gms.R$string: int auth_client_play_services_err_notification_msg
+com.google.android.gms.R$string: int auth_client_requested_by_msg
+com.google.android.gms.R$string: int auth_client_using_bad_version_title
+com.google.android.gms.R$string: int common_google_play_services_enable_button
+com.google.android.gms.R$string: int common_google_play_services_enable_text
+com.google.android.gms.R$string: int common_google_play_services_enable_title
+com.google.android.gms.R$string: int common_google_play_services_install_button
+com.google.android.gms.R$string: int common_google_play_services_install_text_phone
+com.google.android.gms.R$string: int common_google_play_services_install_text_tablet
+com.google.android.gms.R$string: int common_google_play_services_install_title
+com.google.android.gms.R$string: int common_google_play_services_invalid_account_text
+com.google.android.gms.R$string: int common_google_play_services_invalid_account_title
+com.google.android.gms.R$string: int common_google_play_services_network_error_text
+com.google.android.gms.R$string: int common_google_play_services_network_error_title
+com.google.android.gms.R$string: int common_google_play_services_unknown_issue
+com.google.android.gms.R$string: int common_google_play_services_unsupported_date_text
+com.google.android.gms.R$string: int common_google_play_services_unsupported_text
+com.google.android.gms.R$string: int common_google_play_services_unsupported_title
+com.google.android.gms.R$string: int common_google_play_services_update_button
+com.google.android.gms.R$string: int common_google_play_services_update_text
+com.google.android.gms.R$string: int common_google_play_services_update_title
+com.google.android.gms.R$string: int common_signin_button_text
+com.google.android.gms.R$string: int common_signin_button_text_long
+com.google.android.gms.R$styleable: int[] AdsAttrs
+com.google.android.gms.R$styleable: int AdsAttrs_adSize
+com.google.android.gms.R$styleable: int AdsAttrs_adUnitId
+com.google.android.gms.R$styleable: int[] MapAttrs
+com.google.android.gms.R$styleable: int MapAttrs_cameraBearing
+com.google.android.gms.R$styleable: int MapAttrs_cameraTargetLat
+com.google.android.gms.R$styleable: int MapAttrs_cameraTargetLng
+com.google.android.gms.R$styleable: int MapAttrs_cameraTilt
+com.google.android.gms.R$styleable: int MapAttrs_cameraZoom
+com.google.android.gms.R$styleable: int MapAttrs_mapType
+com.google.android.gms.R$styleable: int MapAttrs_uiCompass
+com.google.android.gms.R$styleable: int MapAttrs_uiRotateGestures
+com.google.android.gms.R$styleable: int MapAttrs_uiScrollGestures
+com.google.android.gms.R$styleable: int MapAttrs_uiTiltGestures
+com.google.android.gms.R$styleable: int MapAttrs_uiZoomControls
+com.google.android.gms.R$styleable: int MapAttrs_uiZoomGestures
+com.google.android.gms.R$styleable: int MapAttrs_useViewLifecycle
+com.google.android.gms.R$styleable: int MapAttrs_zOrderOnTop
+com.google.android.gms.ads.AdView: com.google.android.gms.ads.AdListener getAdListener()
+com.google.android.gms.ads.AdView: com.google.android.gms.ads.AdSize getAdSize()
+com.google.android.gms.ads.AdView: java.lang.String getAdUnitId()
+com.google.android.gms.ads.AdView: void setAdListener(com.google.android.gms.ads.AdListener)
+com.google.android.gms.ads.AdView: void setAdSize(com.google.android.gms.ads.AdSize)
+com.google.android.gms.ads.AdView: void setAdUnitId(java.lang.String)
+com.google.android.gms.auth.RecoveryDecision
+com.google.android.gms.common.SignInButton: void setSize(int)
+com.google.android.gms.common.SignInButton: void setColorScheme(int)
+com.google.android.gms.common.SignInButton: void setOnClickListener(android.view.View$OnClickListener)
+com.google.android.gms.common.SignInButton: void setEnabled(boolean)
+com.google.android.gms.common.data.d
+com.google.android.gms.common.images.ImageManager$ImageReceiver
+com.google.android.gms.common.internal.safeparcel.SafeParcelable
+com.google.android.gms.games.Game
+com.google.android.gms.games.GameEntity
+com.google.android.gms.games.GameEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.Player
+com.google.android.gms.games.PlayerEntity
+com.google.android.gms.games.PlayerEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.b
+com.google.android.gms.games.d
+com.google.android.gms.games.multiplayer.Invitation
+com.google.android.gms.games.multiplayer.InvitationEntity
+com.google.android.gms.games.multiplayer.InvitationEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.Participant
+com.google.android.gms.games.multiplayer.ParticipantEntity
+com.google.android.gms.games.multiplayer.ParticipantEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.b
+com.google.android.gms.games.multiplayer.d
+com.google.android.gms.games.multiplayer.realtime.RealTimeMessage
+com.google.android.gms.games.multiplayer.realtime.RealTimeMessage: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.realtime.Room
+com.google.android.gms.games.multiplayer.realtime.RoomEntity
+com.google.android.gms.games.multiplayer.realtime.RoomEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.realtime.c
+com.google.android.gms.internal.be
+com.google.android.gms.internal.bh
+com.google.android.gms.internal.bu
+com.google.android.gms.internal.bw
+com.google.android.gms.internal.co
+com.google.android.gms.internal.cq: void setContext(android.content.Context)
+com.google.android.gms.internal.dd
+com.google.android.gms.internal.dr
+com.google.android.gms.internal.dt
+com.google.android.gms.internal.dt$a
+com.google.android.gms.internal.dw$a
+com.google.android.gms.internal.dz
+com.google.android.gms.internal.dz$a
+com.google.android.gms.internal.dz$b
+com.google.android.gms.internal.ec
+com.google.android.gms.internal.en
+com.google.android.gms.internal.fa
+com.google.android.gms.internal.fn
+com.google.android.gms.internal.fq
+com.google.android.gms.internal.fs
+com.google.android.gms.internal.fv
+com.google.android.gms.internal.fv$a
+com.google.android.gms.internal.fv$b
+com.google.android.gms.internal.fv$b$a
+com.google.android.gms.internal.fv$b$b
+com.google.android.gms.internal.fv$c
+com.google.android.gms.internal.fv$d
+com.google.android.gms.internal.fv$f
+com.google.android.gms.internal.fv$g
+com.google.android.gms.internal.fv$h
+com.google.android.gms.internal.v
+com.google.android.gms.internal.x
+com.google.android.gms.location.ActivityRecognitionResult
+com.google.android.gms.location.DetectedActivity
+com.google.android.gms.location.LocationRequest
+com.google.android.gms.maps.GoogleMapOptions
+com.google.android.gms.maps.MapView: com.google.android.gms.maps.GoogleMap getMap()
+com.google.android.gms.maps.model.CameraPosition
+com.google.android.gms.maps.model.CircleOptions
+com.google.android.gms.maps.model.GroundOverlayOptions
+com.google.android.gms.maps.model.LatLng
+com.google.android.gms.maps.model.LatLngBounds
+com.google.android.gms.maps.model.MarkerOptions
+com.google.android.gms.maps.model.PolygonOptions
+com.google.android.gms.maps.model.PolylineOptions
+com.google.android.gms.maps.model.Tile
+com.google.android.gms.maps.model.TileOverlayOptions
+com.google.android.gms.maps.model.VisibleRegion
+com.google.android.gms.plus.PlusOneButton: void setOnPlusOneClickListener(com.google.android.gms.plus.PlusOneButton$OnPlusOneClickListener)
+com.google.android.gms.plus.PlusOneButton: void setAnnotation(int)
+com.google.android.gms.plus.PlusOneButton: void setSize(int)
+com.google.android.gms.plus.PlusOneButtonWithPopup: void setOnClickListener(android.view.View$OnClickListener)
+com.google.android.gms.plus.PlusOneButtonWithPopup: void setAnnotation(int)
+com.google.android.gms.plus.PlusOneButtonWithPopup: void setSize(int)
+com.google.android.gms.plus.PlusOneButtonWithPopup: android.app.PendingIntent getResolution()
+com.google.android.gms.wallet.Address
+com.google.android.gms.wallet.Address: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.Cart
+com.google.android.gms.wallet.Cart: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.FullWallet
+com.google.android.gms.wallet.FullWallet: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.FullWalletRequest
+com.google.android.gms.wallet.FullWalletRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.LineItem
+com.google.android.gms.wallet.LineItem: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.LoyaltyWalletObject
+com.google.android.gms.wallet.LoyaltyWalletObject: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.MaskedWallet
+com.google.android.gms.wallet.MaskedWallet: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.MaskedWalletRequest
+com.google.android.gms.wallet.MaskedWalletRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.NotifyTransactionStatusRequest
+com.google.android.gms.wallet.NotifyTransactionStatusRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.OfferWalletObject
+com.google.android.gms.wallet.OfferWalletObject: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.ProxyCard
+com.google.android.gms.wallet.ProxyCard: android.os.Parcelable$Creator CREATOR
+com.wepac.reader.iipdf.Annotation
+com.wepac.reader.iipdf.Annotation: com.wepac.reader.iipdf.Annotation$Type type
+com.wepac.reader.iipdf.Annotation: Annotation(float,float,float,float,int)
+com.wepac.reader.iipdf.Annotation$Type: com.wepac.reader.iipdf.Annotation$Type[] values()
+com.wepac.reader.iipdf.Annotation$Type: com.wepac.reader.iipdf.Annotation$Type valueOf(java.lang.String)
+com.wepac.reader.iipdf.AsyncTask$Status: com.wepac.reader.iipdf.AsyncTask$Status[] values()
+com.wepac.reader.iipdf.AsyncTask$Status: com.wepac.reader.iipdf.AsyncTask$Status valueOf(java.lang.String)
+com.wepac.reader.iipdf.ChoosePDFActivity
+com.wepac.reader.iipdf.ChoosePDFActivity: ChoosePDFActivity()
+com.wepac.reader.iipdf.ChoosePDFItem$Type: com.wepac.reader.iipdf.ChoosePDFItem$Type[] values()
+com.wepac.reader.iipdf.ChoosePDFItem$Type: com.wepac.reader.iipdf.ChoosePDFItem$Type valueOf(java.lang.String)
+com.wepac.reader.iipdf.Hit: com.wepac.reader.iipdf.Hit[] values()
+com.wepac.reader.iipdf.Hit: com.wepac.reader.iipdf.Hit valueOf(java.lang.String)
+com.wepac.reader.iipdf.LastOpenFileActivity
+com.wepac.reader.iipdf.LastOpenFileActivity: LastOpenFileActivity()
+com.wepac.reader.iipdf.LinkInfo
+com.wepac.reader.iipdf.LinkInfo: android.graphics.RectF rect
+com.wepac.reader.iipdf.LinkInfo: LinkInfo(float,float,float,float)
+com.wepac.reader.iipdf.LinkInfo: void acceptVisitor(com.wepac.reader.iipdf.LinkInfoVisitor)
+com.wepac.reader.iipdf.LinkInfoExternal
+com.wepac.reader.iipdf.LinkInfoExternal: java.lang.String url
+com.wepac.reader.iipdf.LinkInfoExternal: LinkInfoExternal(float,float,float,float,java.lang.String)
+com.wepac.reader.iipdf.LinkInfoExternal: void acceptVisitor(com.wepac.reader.iipdf.LinkInfoVisitor)
+com.wepac.reader.iipdf.LinkInfoInternal
+com.wepac.reader.iipdf.LinkInfoInternal: int pageNumber
+com.wepac.reader.iipdf.LinkInfoInternal: LinkInfoInternal(float,float,float,float,int)
+com.wepac.reader.iipdf.LinkInfoInternal: void acceptVisitor(com.wepac.reader.iipdf.LinkInfoVisitor)
+com.wepac.reader.iipdf.LinkInfoRemote
+com.wepac.reader.iipdf.LinkInfoRemote: java.lang.String fileSpec
+com.wepac.reader.iipdf.LinkInfoRemote: int pageNumber
+com.wepac.reader.iipdf.LinkInfoRemote: boolean newWindow
+com.wepac.reader.iipdf.LinkInfoRemote: LinkInfoRemote(float,float,float,float,java.lang.String,int,boolean)
+com.wepac.reader.iipdf.LinkInfoRemote: void acceptVisitor(com.wepac.reader.iipdf.LinkInfoVisitor)
+com.wepac.reader.iipdf.LinkInfoVisitor
+com.wepac.reader.iipdf.LinkInfoVisitor: LinkInfoVisitor()
+com.wepac.reader.iipdf.LinkInfoVisitor: void visitInternal(com.wepac.reader.iipdf.LinkInfoInternal)
+com.wepac.reader.iipdf.LinkInfoVisitor: void visitExternal(com.wepac.reader.iipdf.LinkInfoExternal)
+com.wepac.reader.iipdf.LinkInfoVisitor: void visitRemote(com.wepac.reader.iipdf.LinkInfoRemote)
+com.wepac.reader.iipdf.MainApplication
+com.wepac.reader.iipdf.MainApplication: MainApplication()
+com.wepac.reader.iipdf.MuPDFActivity
+com.wepac.reader.iipdf.MuPDFActivity: MuPDFActivity()
+com.wepac.reader.iipdf.MuPDFActivity: void OnMoreButtonClick(android.view.View)
+com.wepac.reader.iipdf.MuPDFActivity: void OnCancelMoreButtonClick(android.view.View)
+com.wepac.reader.iipdf.MuPDFActivity: void OnPrintButtonClick(android.view.View)
+com.wepac.reader.iipdf.MuPDFActivity: void OnCopyTextButtonClick(android.view.View)
+com.wepac.reader.iipdf.MuPDFActivity: void OnEditAnnotButtonClick(android.view.View)
+com.wepac.reader.iipdf.MuPDFActivity: void OnCancelAnnotButtonClick(android.view.View)
+com.wepac.reader.iipdf.MuPDFActivity: void OnHighlightButtonClick(android.view.View)
+com.wepac.reader.iipdf.MuPDFActivity: void OnUnderlineButtonClick(android.view.View)
+com.wepac.reader.iipdf.MuPDFActivity: void OnStrikeOutButtonClick(android.view.View)
+com.wepac.reader.iipdf.MuPDFActivity: void OnInkButtonClick(android.view.View)
+com.wepac.reader.iipdf.MuPDFActivity: void OnCancelAcceptButtonClick(android.view.View)
+com.wepac.reader.iipdf.MuPDFActivity: void OnAcceptButtonClick(android.view.View)
+com.wepac.reader.iipdf.MuPDFActivity: void OnCancelSearchButtonClick(android.view.View)
+com.wepac.reader.iipdf.MuPDFActivity: void OnDeleteButtonClick(android.view.View)
+com.wepac.reader.iipdf.MuPDFActivity: void OnCancelDeleteButtonClick(android.view.View)
+com.wepac.reader.iipdf.MuPDFActivity$AcceptMode: com.wepac.reader.iipdf.MuPDFActivity$AcceptMode[] values()
+com.wepac.reader.iipdf.MuPDFActivity$AcceptMode: com.wepac.reader.iipdf.MuPDFActivity$AcceptMode valueOf(java.lang.String)
+com.wepac.reader.iipdf.MuPDFActivity$TopBarMode: com.wepac.reader.iipdf.MuPDFActivity$TopBarMode[] values()
+com.wepac.reader.iipdf.MuPDFActivity$TopBarMode: com.wepac.reader.iipdf.MuPDFActivity$TopBarMode valueOf(java.lang.String)
+com.wepac.reader.iipdf.MuPDFAlert$ButtonGroupType: com.wepac.reader.iipdf.MuPDFAlert$ButtonGroupType[] values()
+com.wepac.reader.iipdf.MuPDFAlert$ButtonGroupType: com.wepac.reader.iipdf.MuPDFAlert$ButtonGroupType valueOf(java.lang.String)
+com.wepac.reader.iipdf.MuPDFAlert$ButtonPressed: com.wepac.reader.iipdf.MuPDFAlert$ButtonPressed[] values()
+com.wepac.reader.iipdf.MuPDFAlert$ButtonPressed: com.wepac.reader.iipdf.MuPDFAlert$ButtonPressed valueOf(java.lang.String)
+com.wepac.reader.iipdf.MuPDFAlert$IconType: com.wepac.reader.iipdf.MuPDFAlert$IconType[] values()
+com.wepac.reader.iipdf.MuPDFAlert$IconType: com.wepac.reader.iipdf.MuPDFAlert$IconType valueOf(java.lang.String)
+com.wepac.reader.iipdf.MuPDFCore
+com.wepac.reader.iipdf.MuPDFCore: int numPages
+com.wepac.reader.iipdf.MuPDFCore: float pageWidth
+com.wepac.reader.iipdf.MuPDFCore: float pageHeight
+com.wepac.reader.iipdf.MuPDFCore: long globals
+com.wepac.reader.iipdf.MuPDFCore: byte[] fileBuffer
+com.wepac.reader.iipdf.MuPDFCore: java.lang.String file_format
+com.wepac.reader.iipdf.MuPDFCore: int[] $SWITCH_TABLE$com$wepac$reader$iipdf$WidgetType
+com.wepac.reader.iipdf.MuPDFCore: void <clinit>()
+com.wepac.reader.iipdf.MuPDFCore: long openFile(java.lang.String)
+com.wepac.reader.iipdf.MuPDFCore: long openBuffer()
+com.wepac.reader.iipdf.MuPDFCore: java.lang.String fileFormatInternal()
+com.wepac.reader.iipdf.MuPDFCore: int countPagesInternal()
+com.wepac.reader.iipdf.MuPDFCore: void gotoPageInternal(int)
+com.wepac.reader.iipdf.MuPDFCore: float getPageWidth()
+com.wepac.reader.iipdf.MuPDFCore: float getPageHeight()
+com.wepac.reader.iipdf.MuPDFCore: void drawPage(android.graphics.Bitmap,int,int,int,int,int,int)
+com.wepac.reader.iipdf.MuPDFCore: void updatePageInternal(android.graphics.Bitmap,int,int,int,int,int,int,int)
+com.wepac.reader.iipdf.MuPDFCore: android.graphics.RectF[] searchPage(java.lang.String)
+com.wepac.reader.iipdf.MuPDFCore: com.wepac.reader.iipdf.TextChar[][][][] text()
+com.wepac.reader.iipdf.MuPDFCore: byte[] textAsHtml()
+com.wepac.reader.iipdf.MuPDFCore: void addMarkupAnnotationInternal(android.graphics.PointF[],int)
+com.wepac.reader.iipdf.MuPDFCore: void addInkAnnotationInternal(android.graphics.PointF[][])
+com.wepac.reader.iipdf.MuPDFCore: void deleteAnnotationInternal(int)
+com.wepac.reader.iipdf.MuPDFCore: int passClickEventInternal(int,float,float)
+com.wepac.reader.iipdf.MuPDFCore: void setFocusedWidgetChoiceSelectedInternal(java.lang.String[])
+com.wepac.reader.iipdf.MuPDFCore: java.lang.String[] getFocusedWidgetChoiceSelected()
+com.wepac.reader.iipdf.MuPDFCore: java.lang.String[] getFocusedWidgetChoiceOptions()
+com.wepac.reader.iipdf.MuPDFCore: int setFocusedWidgetTextInternal(java.lang.String)
+com.wepac.reader.iipdf.MuPDFCore: java.lang.String getFocusedWidgetTextInternal()
+com.wepac.reader.iipdf.MuPDFCore: int getFocusedWidgetTypeInternal()
+com.wepac.reader.iipdf.MuPDFCore: com.wepac.reader.iipdf.LinkInfo[] getPageLinksInternal(int)
+com.wepac.reader.iipdf.MuPDFCore: android.graphics.RectF[] getWidgetAreasInternal(int)
+com.wepac.reader.iipdf.MuPDFCore: com.wepac.reader.iipdf.Annotation[] getAnnotationsInternal(int)
+com.wepac.reader.iipdf.MuPDFCore: com.wepac.reader.iipdf.OutlineItem[] getOutlineInternal()
+com.wepac.reader.iipdf.MuPDFCore: boolean hasOutlineInternal()
+com.wepac.reader.iipdf.MuPDFCore: boolean needsPasswordInternal()
+com.wepac.reader.iipdf.MuPDFCore: boolean authenticatePasswordInternal(java.lang.String)
+com.wepac.reader.iipdf.MuPDFCore: com.wepac.reader.iipdf.MuPDFAlertInternal waitForAlertInternal()
+com.wepac.reader.iipdf.MuPDFCore: void replyToAlertInternal(com.wepac.reader.iipdf.MuPDFAlertInternal)
+com.wepac.reader.iipdf.MuPDFCore: void startAlertsInternal()
+com.wepac.reader.iipdf.MuPDFCore: void stopAlertsInternal()
+com.wepac.reader.iipdf.MuPDFCore: void destroying()
+com.wepac.reader.iipdf.MuPDFCore: boolean hasChangesInternal()
+com.wepac.reader.iipdf.MuPDFCore: void saveInternal()
+com.wepac.reader.iipdf.MuPDFCore: boolean javascriptSupported()
+com.wepac.reader.iipdf.MuPDFCore: MuPDFCore(android.content.Context,java.lang.String)
+com.wepac.reader.iipdf.MuPDFCore: MuPDFCore(android.content.Context,byte[])
+com.wepac.reader.iipdf.MuPDFCore: int countPages()
+com.wepac.reader.iipdf.MuPDFCore: java.lang.String fileFormat()
+com.wepac.reader.iipdf.MuPDFCore: int countPagesSynchronized()
+com.wepac.reader.iipdf.MuPDFCore: void gotoPage(int)
+com.wepac.reader.iipdf.MuPDFCore: android.graphics.PointF getPageSize(int)
+com.wepac.reader.iipdf.MuPDFCore: com.wepac.reader.iipdf.MuPDFAlert waitForAlert()
+com.wepac.reader.iipdf.MuPDFCore: void replyToAlert(com.wepac.reader.iipdf.MuPDFAlert)
+com.wepac.reader.iipdf.MuPDFCore: void stopAlerts()
+com.wepac.reader.iipdf.MuPDFCore: void startAlerts()
+com.wepac.reader.iipdf.MuPDFCore: void onDestroy()
+com.wepac.reader.iipdf.MuPDFCore: android.graphics.Bitmap drawPage(int,int,int,int,int,int,int)
+com.wepac.reader.iipdf.MuPDFCore: android.graphics.Bitmap updatePage(com.wepac.reader.iipdf.BitmapHolder,int,int,int,int,int,int,int)
+com.wepac.reader.iipdf.MuPDFCore: com.wepac.reader.iipdf.PassClickResult passClickEvent(int,float,float)
+com.wepac.reader.iipdf.MuPDFCore: boolean setFocusedWidgetText(int,java.lang.String)
+com.wepac.reader.iipdf.MuPDFCore: void setFocusedWidgetChoiceSelected(java.lang.String[])
+com.wepac.reader.iipdf.MuPDFCore: com.wepac.reader.iipdf.LinkInfo[] getPageLinks(int)
+com.wepac.reader.iipdf.MuPDFCore: android.graphics.RectF[] getWidgetAreas(int)
+com.wepac.reader.iipdf.MuPDFCore: com.wepac.reader.iipdf.Annotation[] getAnnoations(int)
+com.wepac.reader.iipdf.MuPDFCore: android.graphics.RectF[] searchPage(int,java.lang.String)
+com.wepac.reader.iipdf.MuPDFCore: byte[] html(int)
+com.wepac.reader.iipdf.MuPDFCore: com.wepac.reader.iipdf.TextWord[][] textLines(int)
+com.wepac.reader.iipdf.MuPDFCore: void addMarkupAnnotation(int,android.graphics.PointF[],com.wepac.reader.iipdf.Annotation$Type)
+com.wepac.reader.iipdf.MuPDFCore: void addInkAnnotation(int,android.graphics.PointF[][])
+com.wepac.reader.iipdf.MuPDFCore: void deleteAnnotation(int,int)
+com.wepac.reader.iipdf.MuPDFCore: boolean hasOutline()
+com.wepac.reader.iipdf.MuPDFCore: com.wepac.reader.iipdf.OutlineItem[] getOutline()
+com.wepac.reader.iipdf.MuPDFCore: boolean needsPassword()
+com.wepac.reader.iipdf.MuPDFCore: boolean authenticatePassword(java.lang.String)
+com.wepac.reader.iipdf.MuPDFCore: boolean hasChanges()
+com.wepac.reader.iipdf.MuPDFCore: void save()
+com.wepac.reader.iipdf.MuPDFCore: int[] $SWITCH_TABLE$com$wepac$reader$iipdf$WidgetType()
+com.wepac.reader.iipdf.MuPDFPageView: void setChangeReporter(java.lang.Runnable)
+com.wepac.reader.iipdf.MuPDFPageView: com.wepac.reader.iipdf.LinkInfo[] getLinkInfo()
+com.wepac.reader.iipdf.MuPDFPageView: com.wepac.reader.iipdf.TextWord[][] getText()
+com.wepac.reader.iipdf.MuPDFPageView: void setScale(float)
+com.wepac.reader.iipdf.MuPDFReaderView: void setLinksEnabled(boolean)
+com.wepac.reader.iipdf.MuPDFReaderView: void setMode(com.wepac.reader.iipdf.MuPDFReaderView$Mode)
+com.wepac.reader.iipdf.MuPDFReaderView$Mode: com.wepac.reader.iipdf.MuPDFReaderView$Mode[] values()
+com.wepac.reader.iipdf.MuPDFReaderView$Mode: com.wepac.reader.iipdf.MuPDFReaderView$Mode valueOf(java.lang.String)
+com.wepac.reader.iipdf.MuPDFReflowView: int getPage()
+com.wepac.reader.iipdf.MuPDFReflowView: void setScale(float)
+com.wepac.reader.iipdf.MuPDFReflowView: void setSearchBoxes(android.graphics.RectF[])
+com.wepac.reader.iipdf.MuPDFReflowView: void setLinkHighlighting(boolean)
+com.wepac.reader.iipdf.MuPDFReflowView: void setChangeReporter(java.lang.Runnable)
+com.wepac.reader.iipdf.OutlineActivity
+com.wepac.reader.iipdf.OutlineActivity: OutlineActivity()
+com.wepac.reader.iipdf.OutlineItem
+com.wepac.reader.iipdf.OutlineItem: int level
+com.wepac.reader.iipdf.OutlineItem: java.lang.String title
+com.wepac.reader.iipdf.OutlineItem: int page
+com.wepac.reader.iipdf.OutlineItem: OutlineItem(int,java.lang.String,int)
+com.wepac.reader.iipdf.PageView: com.wepac.reader.iipdf.LinkInfo[] getLinkInfo()
+com.wepac.reader.iipdf.PageView: com.wepac.reader.iipdf.TextWord[][] getText()
+com.wepac.reader.iipdf.PageView: void setSearchBoxes(android.graphics.RectF[])
+com.wepac.reader.iipdf.PageView: void setLinkHighlighting(boolean)
+com.wepac.reader.iipdf.PageView: android.graphics.PointF[][] getDraw()
+com.wepac.reader.iipdf.PageView: void setItemSelectBox(android.graphics.RectF)
+com.wepac.reader.iipdf.PageView: int getPage()
+com.wepac.reader.iipdf.PrintDialogActivity
+com.wepac.reader.iipdf.PrintDialogActivity: PrintDialogActivity()
+com.wepac.reader.iipdf.R$animator: int info
+com.wepac.reader.iipdf.R$attr: int adSize
+com.wepac.reader.iipdf.R$attr: int adUnitId
+com.wepac.reader.iipdf.R$attr: int cameraBearing
+com.wepac.reader.iipdf.R$attr: int cameraTargetLat
+com.wepac.reader.iipdf.R$attr: int cameraTargetLng
+com.wepac.reader.iipdf.R$attr: int cameraTilt
+com.wepac.reader.iipdf.R$attr: int cameraZoom
+com.wepac.reader.iipdf.R$attr: int mapType
+com.wepac.reader.iipdf.R$attr: int uiCompass
+com.wepac.reader.iipdf.R$attr: int uiRotateGestures
+com.wepac.reader.iipdf.R$attr: int uiScrollGestures
+com.wepac.reader.iipdf.R$attr: int uiTiltGestures
+com.wepac.reader.iipdf.R$attr: int uiZoomControls
+com.wepac.reader.iipdf.R$attr: int uiZoomGestures
+com.wepac.reader.iipdf.R$attr: int useViewLifecycle
+com.wepac.reader.iipdf.R$attr: int zOrderOnTop
+com.wepac.reader.iipdf.R$color: int busy_indicator
+com.wepac.reader.iipdf.R$color: int button_normal
+com.wepac.reader.iipdf.R$color: int button_pressed
+com.wepac.reader.iipdf.R$color: int canvas
+com.wepac.reader.iipdf.R$color: int common_action_bar_splitter
+com.wepac.reader.iipdf.R$color: int common_signin_btn_dark_text_default
+com.wepac.reader.iipdf.R$color: int common_signin_btn_dark_text_disabled
+com.wepac.reader.iipdf.R$color: int common_signin_btn_dark_text_focused
+com.wepac.reader.iipdf.R$color: int common_signin_btn_dark_text_pressed
+com.wepac.reader.iipdf.R$color: int common_signin_btn_default_background
+com.wepac.reader.iipdf.R$color: int common_signin_btn_light_text_default
+com.wepac.reader.iipdf.R$color: int common_signin_btn_light_text_disabled
+com.wepac.reader.iipdf.R$color: int common_signin_btn_light_text_focused
+com.wepac.reader.iipdf.R$color: int common_signin_btn_light_text_pressed
+com.wepac.reader.iipdf.R$color: int common_signin_btn_text_dark
+com.wepac.reader.iipdf.R$color: int common_signin_btn_text_light
+com.wepac.reader.iipdf.R$color: int page_indicator
+com.wepac.reader.iipdf.R$color: int seek_progress
+com.wepac.reader.iipdf.R$color: int seek_thumb
+com.wepac.reader.iipdf.R$color: int text_border_focused
+com.wepac.reader.iipdf.R$color: int text_border_normal
+com.wepac.reader.iipdf.R$color: int text_border_pressed
+com.wepac.reader.iipdf.R$color: int text_normal
+com.wepac.reader.iipdf.R$color: int text_pressed
+com.wepac.reader.iipdf.R$color: int toolbar
+com.wepac.reader.iipdf.R$dimen: int activity_horizontal_margin
+com.wepac.reader.iipdf.R$dimen: int activity_vertical_margin
+com.wepac.reader.iipdf.R$drawable: int browse_file
+com.wepac.reader.iipdf.R$drawable: int busy
+com.wepac.reader.iipdf.R$drawable: int button
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_icon_dark
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_icon_disabled_dark
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_icon_disabled_focus_dark
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_icon_disabled_focus_light
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_icon_disabled_light
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_icon_focus_dark
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_icon_focus_light
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_icon_light
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_icon_normal_dark
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_icon_normal_light
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_icon_pressed_dark
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_icon_pressed_light
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_text_dark
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_text_disabled_dark
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_text_disabled_focus_dark
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_text_disabled_focus_light
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_text_disabled_light
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_text_focus_dark
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_text_focus_light
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_text_light
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_text_normal_dark
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_text_normal_light
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_text_pressed_dark
+com.wepac.reader.iipdf.R$drawable: int common_signin_btn_text_pressed_light
+com.wepac.reader.iipdf.R$drawable: int darkdenim3
+com.wepac.reader.iipdf.R$drawable: int delete_icon
+com.wepac.reader.iipdf.R$drawable: int file_icon
+com.wepac.reader.iipdf.R$drawable: int ic_annot
+com.wepac.reader.iipdf.R$drawable: int ic_annotation
+com.wepac.reader.iipdf.R$drawable: int ic_arrow_left
+com.wepac.reader.iipdf.R$drawable: int ic_arrow_right
+com.wepac.reader.iipdf.R$drawable: int ic_arrow_up
+com.wepac.reader.iipdf.R$drawable: int ic_cancel
+com.wepac.reader.iipdf.R$drawable: int ic_check
+com.wepac.reader.iipdf.R$drawable: int ic_clipboard
+com.wepac.reader.iipdf.R$drawable: int ic_dir
+com.wepac.reader.iipdf.R$drawable: int ic_doc
+com.wepac.reader.iipdf.R$drawable: int ic_highlight
+com.wepac.reader.iipdf.R$drawable: int ic_link
+com.wepac.reader.iipdf.R$drawable: int ic_list
+com.wepac.reader.iipdf.R$drawable: int ic_magnifying_glass
+com.wepac.reader.iipdf.R$drawable: int ic_more
+com.wepac.reader.iipdf.R$drawable: int ic_pen
+com.wepac.reader.iipdf.R$drawable: int ic_plusone_medium_off_client
+com.wepac.reader.iipdf.R$drawable: int ic_plusone_small_off_client
+com.wepac.reader.iipdf.R$drawable: int ic_plusone_standard_off_client
+com.wepac.reader.iipdf.R$drawable: int ic_plusone_tall_off_client
+com.wepac.reader.iipdf.R$drawable: int ic_print
+com.wepac.reader.iipdf.R$drawable: int ic_reflow
+com.wepac.reader.iipdf.R$drawable: int ic_select
+com.wepac.reader.iipdf.R$drawable: int ic_strike
+com.wepac.reader.iipdf.R$drawable: int ic_trash
+com.wepac.reader.iipdf.R$drawable: int ic_underline
+com.wepac.reader.iipdf.R$drawable: int icon
+com.wepac.reader.iipdf.R$drawable: int iipdf
+com.wepac.reader.iipdf.R$drawable: int page_num
+com.wepac.reader.iipdf.R$drawable: int search
+com.wepac.reader.iipdf.R$drawable: int seek_progress
+com.wepac.reader.iipdf.R$drawable: int seek_thumb
+com.wepac.reader.iipdf.R$drawable: int tiled_background
+com.wepac.reader.iipdf.R$id: int acceptButton
+com.wepac.reader.iipdf.R$id: int annotType
+com.wepac.reader.iipdf.R$id: int browse_file
+com.wepac.reader.iipdf.R$id: int cancelAcceptButton
+com.wepac.reader.iipdf.R$id: int cancelAnnotButton
+com.wepac.reader.iipdf.R$id: int cancelDeleteButton
+com.wepac.reader.iipdf.R$id: int cancelMoreButton
+com.wepac.reader.iipdf.R$id: int cancelSearch
+com.wepac.reader.iipdf.R$id: int copyTextButton
+com.wepac.reader.iipdf.R$id: int delete
+com.wepac.reader.iipdf.R$id: int deleteButton
+com.wepac.reader.iipdf.R$id: int deleteLabel
+com.wepac.reader.iipdf.R$id: int docNameText
+com.wepac.reader.iipdf.R$id: int editAnnotButton
+com.wepac.reader.iipdf.R$id: int file_name
+com.wepac.reader.iipdf.R$id: int highlightButton
+com.wepac.reader.iipdf.R$id: int hybrid
+com.wepac.reader.iipdf.R$id: int icon
+com.wepac.reader.iipdf.R$id: int info
+com.wepac.reader.iipdf.R$id: int inkButton
+com.wepac.reader.iipdf.R$id: int linkButton
+com.wepac.reader.iipdf.R$id: int list_file
+com.wepac.reader.iipdf.R$id: int lowerButtons
+com.wepac.reader.iipdf.R$id: int moreButton
+com.wepac.reader.iipdf.R$id: int name
+com.wepac.reader.iipdf.R$id: int none
+com.wepac.reader.iipdf.R$id: int normal
+com.wepac.reader.iipdf.R$id: int outlineButton
+com.wepac.reader.iipdf.R$id: int page
+com.wepac.reader.iipdf.R$id: int pageNumber
+com.wepac.reader.iipdf.R$id: int pageSlider
+com.wepac.reader.iipdf.R$id: int printButton
+com.wepac.reader.iipdf.R$id: int reflowButton
+com.wepac.reader.iipdf.R$id: int satellite
+com.wepac.reader.iipdf.R$id: int searchBack
+com.wepac.reader.iipdf.R$id: int searchButton
+com.wepac.reader.iipdf.R$id: int searchForward
+com.wepac.reader.iipdf.R$id: int searchText
+com.wepac.reader.iipdf.R$id: int strikeOutButton
+com.wepac.reader.iipdf.R$id: int switcher
+com.wepac.reader.iipdf.R$id: int terrain
+com.wepac.reader.iipdf.R$id: int title
+com.wepac.reader.iipdf.R$id: int topBar0Main
+com.wepac.reader.iipdf.R$id: int topBar1Search
+com.wepac.reader.iipdf.R$id: int topBar2Annot
+com.wepac.reader.iipdf.R$id: int topBar3Delete
+com.wepac.reader.iipdf.R$id: int topBar4More
+com.wepac.reader.iipdf.R$id: int topBar5Accept
+com.wepac.reader.iipdf.R$id: int underlineButton
+com.wepac.reader.iipdf.R$id: int webview
+com.wepac.reader.iipdf.R$integer: int google_play_services_version
+com.wepac.reader.iipdf.R$layout: int buttons
+com.wepac.reader.iipdf.R$layout: int last_open_file
+com.wepac.reader.iipdf.R$layout: int main
+com.wepac.reader.iipdf.R$layout: int open_file_row
+com.wepac.reader.iipdf.R$layout: int outline_entry
+com.wepac.reader.iipdf.R$layout: int picker_entry
+com.wepac.reader.iipdf.R$layout: int print_dialog
+com.wepac.reader.iipdf.R$layout: int textentry
+com.wepac.reader.iipdf.R$menu: int opened_file_menu
+com.wepac.reader.iipdf.R$string: int accept
+com.wepac.reader.iipdf.R$string: int alert
+com.wepac.reader.iipdf.R$string: int app_name
+com.wepac.reader.iipdf.R$string: int auth_client_needs_enabling_title
+com.wepac.reader.iipdf.R$string: int auth_client_needs_installation_title
+com.wepac.reader.iipdf.R$string: int auth_client_needs_update_title
+com.wepac.reader.iipdf.R$string: int auth_client_play_services_err_notification_msg
+com.wepac.reader.iipdf.R$string: int auth_client_requested_by_msg
+com.wepac.reader.iipdf.R$string: int auth_client_using_bad_version_title
+com.wepac.reader.iipdf.R$string: int cancel
+com.wepac.reader.iipdf.R$string: int cannot_open_buffer
+com.wepac.reader.iipdf.R$string: int cannot_open_document
+com.wepac.reader.iipdf.R$string: int cannot_open_document_Reason
+com.wepac.reader.iipdf.R$string: int cannot_open_file_Path
+com.wepac.reader.iipdf.R$string: int choose_value
+com.wepac.reader.iipdf.R$string: int common_google_play_services_enable_button
+com.wepac.reader.iipdf.R$string: int common_google_play_services_enable_text
+com.wepac.reader.iipdf.R$string: int common_google_play_services_enable_title
+com.wepac.reader.iipdf.R$string: int common_google_play_services_install_button
+com.wepac.reader.iipdf.R$string: int common_google_play_services_install_text_phone
+com.wepac.reader.iipdf.R$string: int common_google_play_services_install_text_tablet
+com.wepac.reader.iipdf.R$string: int common_google_play_services_install_title
+com.wepac.reader.iipdf.R$string: int common_google_play_services_invalid_account_text
+com.wepac.reader.iipdf.R$string: int common_google_play_services_invalid_account_title
+com.wepac.reader.iipdf.R$string: int common_google_play_services_network_error_text
+com.wepac.reader.iipdf.R$string: int common_google_play_services_network_error_title
+com.wepac.reader.iipdf.R$string: int common_google_play_services_unknown_issue
+com.wepac.reader.iipdf.R$string: int common_google_play_services_unsupported_date_text
+com.wepac.reader.iipdf.R$string: int common_google_play_services_unsupported_text
+com.wepac.reader.iipdf.R$string: int common_google_play_services_unsupported_title
+com.wepac.reader.iipdf.R$string: int common_google_play_services_update_button
+com.wepac.reader.iipdf.R$string: int common_google_play_services_update_text
+com.wepac.reader.iipdf.R$string: int common_google_play_services_update_title
+com.wepac.reader.iipdf.R$string: int common_signin_button_text
+com.wepac.reader.iipdf.R$string: int common_signin_button_text_long
+com.wepac.reader.iipdf.R$string: int copied_to_clipboard
+com.wepac.reader.iipdf.R$string: int copy
+com.wepac.reader.iipdf.R$string: int copy_text
+com.wepac.reader.iipdf.R$string: int copy_text_to_the_clipboard
+com.wepac.reader.iipdf.R$string: int delete
+com.wepac.reader.iipdf.R$string: int delete_opened_file
+com.wepac.reader.iipdf.R$string: int dismiss
+com.wepac.reader.iipdf.R$string: int document_has_changes_save_them_
+com.wepac.reader.iipdf.R$string: int draw_annotation
+com.wepac.reader.iipdf.R$string: int edit_annotations
+com.wepac.reader.iipdf.R$string: int enter_password
+com.wepac.reader.iipdf.R$string: int entering_reflow_mode
+com.wepac.reader.iipdf.R$string: int fill_out_text_field
+com.wepac.reader.iipdf.R$string: int format_currently_not_supported
+com.wepac.reader.iipdf.R$string: int highlight
+com.wepac.reader.iipdf.R$string: int ink
+com.wepac.reader.iipdf.R$string: int last_open
+com.wepac.reader.iipdf.R$string: int leaving_reflow_mode
+com.wepac.reader.iipdf.R$string: int more
+com.wepac.reader.iipdf.R$string: int no
+com.wepac.reader.iipdf.R$string: int no_further_occurrences_found
+com.wepac.reader.iipdf.R$string: int no_media_hint
+com.wepac.reader.iipdf.R$string: int no_media_warning
+com.wepac.reader.iipdf.R$string: int no_text_selected
+com.wepac.reader.iipdf.R$string: int not_supported
+com.wepac.reader.iipdf.R$string: int nothing_to_save
+com.wepac.reader.iipdf.R$string: int okay
+com.wepac.reader.iipdf.R$string: int outline_title
+com.wepac.reader.iipdf.R$string: int parent_directory
+com.wepac.reader.iipdf.R$string: int print
+com.wepac.reader.iipdf.R$string: int print_failed
+com.wepac.reader.iipdf.R$string: int save
+com.wepac.reader.iipdf.R$string: int search
+com.wepac.reader.iipdf.R$string: int search_backwards
+com.wepac.reader.iipdf.R$string: int search_document
+com.wepac.reader.iipdf.R$string: int search_forwards
+com.wepac.reader.iipdf.R$string: int searching_
+com.wepac.reader.iipdf.R$string: int select
+com.wepac.reader.iipdf.R$string: int select_text
+com.wepac.reader.iipdf.R$string: int strike_out
+com.wepac.reader.iipdf.R$string: int text_not_found
+com.wepac.reader.iipdf.R$string: int toggle_links
+com.wepac.reader.iipdf.R$string: int toggle_reflow_mode
+com.wepac.reader.iipdf.R$string: int underline
+com.wepac.reader.iipdf.R$string: int version
+com.wepac.reader.iipdf.R$string: int yes
+com.wepac.reader.iipdf.R$style: int AppBaseTheme
+com.wepac.reader.iipdf.R$styleable: int[] AdsAttrs
+com.wepac.reader.iipdf.R$styleable: int AdsAttrs_adSize
+com.wepac.reader.iipdf.R$styleable: int AdsAttrs_adUnitId
+com.wepac.reader.iipdf.R$styleable: int[] MapAttrs
+com.wepac.reader.iipdf.R$styleable: int MapAttrs_cameraBearing
+com.wepac.reader.iipdf.R$styleable: int MapAttrs_cameraTargetLat
+com.wepac.reader.iipdf.R$styleable: int MapAttrs_cameraTargetLng
+com.wepac.reader.iipdf.R$styleable: int MapAttrs_cameraTilt
+com.wepac.reader.iipdf.R$styleable: int MapAttrs_cameraZoom
+com.wepac.reader.iipdf.R$styleable: int MapAttrs_mapType
+com.wepac.reader.iipdf.R$styleable: int MapAttrs_uiCompass
+com.wepac.reader.iipdf.R$styleable: int MapAttrs_uiRotateGestures
+com.wepac.reader.iipdf.R$styleable: int MapAttrs_uiScrollGestures
+com.wepac.reader.iipdf.R$styleable: int MapAttrs_uiTiltGestures
+com.wepac.reader.iipdf.R$styleable: int MapAttrs_uiZoomControls
+com.wepac.reader.iipdf.R$styleable: int MapAttrs_uiZoomGestures
+com.wepac.reader.iipdf.R$styleable: int MapAttrs_useViewLifecycle
+com.wepac.reader.iipdf.R$styleable: int MapAttrs_zOrderOnTop
+com.wepac.reader.iipdf.ReaderView: int getDisplayedViewIndex()
+com.wepac.reader.iipdf.ReaderView: void setDisplayedViewIndex(int)
+com.wepac.reader.iipdf.ReaderView: android.view.View getDisplayedView()
+com.wepac.reader.iipdf.ReaderView: android.widget.Adapter getAdapter()
+com.wepac.reader.iipdf.ReaderView: android.view.View getSelectedView()
+com.wepac.reader.iipdf.ReaderView: void setAdapter(android.widget.Adapter)
+com.wepac.reader.iipdf.ReaderView: void setSelection(int)
+com.wepac.reader.iipdf.ReaderView: android.view.View getCached()
+com.wepac.reader.iipdf.TextChar
+com.wepac.reader.iipdf.TextChar: char c
+com.wepac.reader.iipdf.TextChar: TextChar(float,float,float,float,char)
+com.wepac.reader.iipdf.TextWord
+com.wepac.reader.iipdf.TextWord: java.lang.String w
+com.wepac.reader.iipdf.TextWord: TextWord()
+com.wepac.reader.iipdf.TextWord: void Add(com.wepac.reader.iipdf.TextChar)
+com.wepac.reader.iipdf.WidgetType: com.wepac.reader.iipdf.WidgetType[] values()
+com.wepac.reader.iipdf.WidgetType: com.wepac.reader.iipdf.WidgetType valueOf(java.lang.String)

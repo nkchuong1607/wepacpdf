@@ -1082,7 +1082,7 @@ public class MuPDFActivity extends Activity
 				}
 			};
 			AlertDialog alert = mAlertBuilder.create();
-			alert.setTitle("MuPDF");
+			alert.setTitle(R.string.alert);
 			alert.setMessage(getString(R.string.document_has_changes_save_them_));
 			alert.setButton(AlertDialog.BUTTON_POSITIVE, getString(R.string.yes), listener);
 			alert.setButton(AlertDialog.BUTTON_NEGATIVE, getString(R.string.no), listener);

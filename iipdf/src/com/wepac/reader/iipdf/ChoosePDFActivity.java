@@ -193,6 +193,7 @@ public class ChoosePDFActivity extends ListActivity {
 		intent.setAction(Intent.ACTION_VIEW);
 		intent.setData(uri);
 		startActivity(intent);
+		finish();
 	}
 
 	@Override
